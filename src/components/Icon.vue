@@ -13,12 +13,12 @@ div {
     border: solid black 2px;
     border-radius: 20px;
     background-color: lightblue;
-    height: 100px;
-    width: 150px;
+    height: 50px;
+    width: 100px;
     margin: 10px;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-items: center;
+    text-align: center;
 }
 </style>
