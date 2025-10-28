@@ -14,8 +14,9 @@ div {
     border-radius: 20px;
     background-color: lightblue;
     height: 50px;
-    width: 100px;
+    width: auto;
     margin: 10px;
+    padding: 10px;
     display: flex;
     justify-content: center;
     flex-direction: column;

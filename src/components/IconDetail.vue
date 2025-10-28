@@ -10,6 +10,14 @@ const props = defineProps({
     categories: {
         type: Array,
         required: true
+    },
+    color: {
+        type: String,
+        required: true
+    },
+    object: {
+        type: Object,
+        required: true
     }
 })
 
@@ -20,7 +28,8 @@ const props = defineProps({
             <h1>{{ props.title }}</h1>
         </div>
         <div class="content">
-            <categorie v-for="item in props.categories" :key="item" :title="item" :topic="title" />
+            <categorie v-for="item in props.categories" :key="item" :title="item.title" :topic="props.title"
+                :color="props.color" :object="props.object" />
         </div>
     </div>
 </template>
